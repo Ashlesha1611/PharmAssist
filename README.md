@@ -39,15 +39,15 @@ Obtain API credentials from Google Cloud Console.\
 Download the JSON key file and save it in the project directory.\
 Set the environment variable:\
 export GOOGLE_APPLICATION_CREDENTIALS="path/to/your-key.json"\
-(For Windows, use set instead of export.)\
+(For Windows, use set instead of export.)
 
 ## **Usage:**
-**Batch Process Prescription Images:**
+**Batch Process Prescription Images:**\
 Upload the images of handwritten prescriptions in a folder named "test_images".\
-Create an empty folder "processed_images" to store images after pre-processing.\
+Create an empty folder "processed_images" to store images after pre-processing.
 
 
-**Match Extracted Medicines Against Database:**
+**Match Extracted Medicines Against Database:**\
 Run the medicine-data-convert.py file to obtain a json file of the medicine database.\
 Insert your Google Vision API key in the code of vision_ocr.py and run it.\
 Run the file vision_ocr.py.\
@@ -60,7 +60,7 @@ Expected Output:
 UI for pharmacists to upload images & stock data manually.\
 Error handling for unmatched or expired medicines.\
 Integration with order generation and stock management.\
-Cloud-based deployment for real-world pharmacy use.\
+Cloud-based deployment for real-world pharmacy use.
 
 ## **Contributing:**
 If you'd like to contribute, feel free to open an issue or submit a pull request.
