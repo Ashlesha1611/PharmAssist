@@ -5,18 +5,18 @@ An AI-powered application to automate the extraction and matching of handwritten
 PharmAssist is designed to help pharmacies process handwritten prescriptions efficiently. By leveraging OCR (Optical Character Recognition) and batch processing, the application extracts medicine names from prescriptions and matches them against a predefined medicine database.
 
 ## **Features (Current Implementation)**
-Batch Processing of Prescription Images – Allows multiple prescription images to be processed at once.\
-OCR-Based Text Extraction – Uses Google Vision API to extract text from handwritten prescriptions.\
-Medicine Name Matching – Compares extracted text against a structured medicine database(taken from the WHO website) to identify prescribed drugs.
+* Batch Processing of Prescription Images – Allows multiple prescription images to be processed at once.\
+* OCR-Based Text Extraction – Uses Google Vision API to extract text from handwritten prescriptions.\
+* Medicine Name Matching – Compares extracted text against a structured medicine database(taken from the WHO website) to identify prescribed drugs.
 
 ## **Tech Stack:**
-Python – Core logic and data processing\
-Google Vision API – Handwritten text recognition\
-Pandas – Handling and processing the medicine database\
-OpenCV / PIL (optional) – Image preprocessing
+* Python – Core logic and data processing\
+* Google Vision API – Handwritten text recognition\
+* Pandas – Handling and processing the medicine database\
+* OpenCV / PIL (optional) – Image preprocessing
 
 ## **Installation & Setup**:
-1. *Clone the Repository*
+1. **Clone the Repository**
 ```
 git clone https://github.com/yourusername/pharmassist.git
 cd pharmassist
